@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Styl.Coke!</title>
+
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="styl.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Background Overlay (Optional for better text visibility) -->
+    <div class="overlay"></div>
+
+    <!-- Main Heading -->
+    <h1 class="shadow-text">
+        <span class="red-text">Styl.</span> <span class="white-text">Coke</span>
+    </h1>
+    <h2 class="shadow-text white-text">Your one stop for fashion advice and looks!</h2>
+    <h3 class="shadow-text white-text">We also provide a personal shopper experience according to your budget!</h3>
+
+    <!-- Navigation Options -->
+    <nav>
+        <ul class="nav-list">
+            <li>
+                <a href="trends_women.html">
+                    <img src="images/women_trends.jpg" alt="Women Fashion">
+                    <h2>2025 Fashion Trends Women</h2>
+                </a>
+            </li>
+            <li>
+                <a href="color_jan.html">
+                    <img src="images/color_jan.jpg" alt="Color of January">
+                    <h2>Color of Jan 2025</h2>
+                </a>
+            </li>
+            <li>
+                <a href="trends_men.html">
+                    <img src="images/men_trends.jpg" alt="Men Fashion">
+                    <h2>2025 Fashion Trends Men</h2>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+</body>
+</html>
+
